@@ -6,6 +6,7 @@ body {
 
 .abc {
     margin-right: auto;
+    margin-left: auto;
 }
 
 h1 {
@@ -17,15 +18,20 @@ h1 {
 }
 
 h2 {
-    text-align:left;
-    font-size: xx-large;
-    color: black;
+    text-align:center;
+    font-size: xxx-large;
+    color: white;
 }
 
+h3 {
+    text-align: center;
+    color: white;
+}
+
+
 tr {
-    
     font-size: x-large;
-    color:black;
+    color: gold;
 }
 
 ul {
@@ -39,20 +45,20 @@ ul {
   }
   
   li {
-      font-size: xx-large;
+      font-size: xxx-large;
     float: left;
+    text-align: center;
   }
   
   a {
     display: block;
-    padding: 8px;
-    background-color:rgb(255, 187, 0);
-    color: black;
+    padding: 12px;
+    background-color:red;
+    color: white;
   }
 td {
-    
     font-size: xx-large;
-    color:black;
+    color:gold;
 }
 
 p {
