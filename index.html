@@ -32,10 +32,9 @@ a {
     <body>
         <h1>Skywalk Air Ticketing Centre</h1>
         
-        <p7>Click the button to display the date.</p7>
-
-<button onclick="displayDate()">TIME</button>
-
+        <p7>Click the button to know the date.</p7>
+        <button onclick="displayDate()">DATE</button>
+        
 <script>
 function displayDate() {
   document.getElementById("demo").innerHTML = Date();
@@ -44,7 +43,14 @@ function displayDate() {
 
 <p7 id="demo"></p7><br><br>
 
-
+<form class="form">   
+    <b>Departure:</b> <input type="text" placeholder="Departure" Required> 
+   <b> Arrival:</b> <input type="text" placeholder="Arrival" Required>
+    <br>  
+    <br>  
+   <b> Date of Travel:</b> <input type = "date">   <br><br>
+    <button type="submit" name="btn">Submit</button>  
+    </form>
 
 
 
